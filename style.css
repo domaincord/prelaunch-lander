@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Avenir, Arial, sans-serif;
+    font-size: 16px;
+}
+
+@keyframes shine {
+    0%, 10% {
+      background-position: -150px;
+    }
+    100% {
+      background-position: 250px;
+    }
+  }
+
+.shine {
+    background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+    -webkit-background-size: 150px;
+    color: rgba(255, 255, 255, 0.3);
+    -webkit-background-clip: text;
+    -webkit-animation-name: shine;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+  }
+  
+
+header {
+    background-image: url(gradient_mash_bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 3%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.95) 3%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.95) 3%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+header > h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.launch-date {
+    background: rgb(91,116,191);
+    background: -moz-linear-gradient(-45deg,  rgba(91,116,191,0.8) 0%, rgba(75,23,216,0.8) 50%, rgba(178,57,176,0.8) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(91,116,191,0.8) 0%,rgba(75,23,216,0.8) 50%,rgba(178,57,176,0.8) 100%);
+    background: linear-gradient(135deg,  rgba(91,116,191,0.8) 0%,rgba(75,23,216,0.8) 50%,rgba(178,57,176,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5b74bf', endColorstr='#b239b0',GradientType=1 );
+    width: 225px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}

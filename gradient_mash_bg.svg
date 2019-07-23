@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="500px" viewBox="0 0 1440 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4E75F4" offset="0%"></stop>
+            <stop stop-color="#8FA4E7" stop-opacity="0.52697239" offset="66.3650172%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="48.2436428%" y1="36.657614%" x2="52.1179859%" y2="62.1178155%" id="linearGradient-2">
+            <stop stop-color="#EC9822" offset="0%"></stop>
+            <stop stop-color="#8FA4E7" stop-opacity="0.52697239" offset="59.844431%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-11.4%" y="-19.4%" width="122.8%" height="138.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="47" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="48.2436428%" y1="13.2825656%" x2="52.1179859%" y2="83.3474909%" id="linearGradient-4">
+            <stop stop-color="#55EC22" offset="0%"></stop>
+            <stop stop-color="#8FA4E7" stop-opacity="0" offset="51.8057429%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-16.3%" y="-16.6%" width="132.5%" height="133.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="49" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Custom-Preset" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="1440" height="500"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-2)" filter="url(#filter-3)" transform="translate(1157.784056, 169.736822) rotate(25.000000) translate(-1157.784056, -169.736822) " x="540.284056" y="-194.263178" width="1235" height="728"></rect>
+        <rect id="Rectangle" fill="url(#linearGradient-4)" filter="url(#filter-5)" transform="translate(680.281424, 249.946122) rotate(-15.000000) translate(-680.281424, -249.946122) " x="228.281424" y="-192.053878" width="904" height="884"></rect>
+    </g>
+</svg>
